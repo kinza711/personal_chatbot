@@ -1,0 +1,2 @@
+Kinza works with React, Node.js, Express, MongoDB, Tailwind CSS, GSAP and Locomotive Scroll.
+She is learning AI integration using OpenAI APIs and vector search.

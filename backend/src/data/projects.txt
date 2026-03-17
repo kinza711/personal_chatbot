@@ -1,0 +1,3 @@
+Kinza built a Learning Management System using MERN stack.
+She built a Job Board platform with authentication and job posting features.
+She created an AI-powered portfolio chatbot.

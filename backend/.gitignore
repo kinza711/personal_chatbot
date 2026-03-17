@@ -5,7 +5,7 @@ node_modules/
 .env
 .env.production
 
-*.txt
+.txt
 # Logs
 logs/
 *.log
