@@ -28,8 +28,8 @@ app.get("/", (req, res) => {
 });
 
 // 404 route
-// app.use((req, res) => {
-//   res.send("page not found please visit another page ");
-// });
+app.use((req, res) => {
+  res.send("page not found please visit another page ");
+});
 
 export default app;
