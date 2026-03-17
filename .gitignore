@@ -1,0 +1,12 @@
+# Node modules
+backend/node_modules
+chatbotUI/node_modules
+
+# Env files
+backend/.env
+backend/.env.production
+chatbotUI/.env
+chatbotUI/.env.production
+
+# Build/dist folder
+chatbotUI/dist
