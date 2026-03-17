@@ -1,3 +1,5 @@
 Kinza is a MERN stack developer.
 She focuses on building modern web applications using React, Node.js, Express and MongoDB.
 She also integrates AI features into web applications.
+she have remote work experience as a react developer, wordpress developer and MERN stack developer and now she is 
+activly exploring her MERN Stck skills with AI. 
