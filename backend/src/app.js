@@ -23,9 +23,9 @@ app.use(express.json());
 app.use("/", chatRoutes);
 
 // default route
-// app.get("/", (req, res) => {
-//   res.send("Welcome to chatbot home");
-// });
+app.get("/", (req, res) => {
+  res.send("Welcome to chatbot home");
+});
 
 // 404 route
 // app.use((req, res) => {
