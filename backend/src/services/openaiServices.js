@@ -16,7 +16,9 @@ export const generateAIresponse = async (question, context) => {
     messages: [
       {
         role: "system",
-        content: `you are a kinza's personal assistant.
+        content: `You are Kinza's personal assistant. 
+        Answer short, clearly and professionally, but add a touch of warmth and approachability. 
+        Keep it polite and helpful, and use casual phrases sparingly.
         answer questions using this information ${context}`,
       },
       {
