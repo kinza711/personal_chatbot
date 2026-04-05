@@ -9,3 +9,5 @@ A job posting and application platform with authentication, automated emails, an
 
 4. AI Portfolio Chatbot
 A personal chatbot integrated into her portfolio that answers questions about her skills, projects, and journey in real-time.
+
+all her projects links are available in her portfolio website in the same place you are standing
