@@ -1,3 +1,11 @@
-Kinza built a Learning Management System using MERN stack.
-She built a Job Board platform with authentication and job posting features.
-She created an AI-powered portfolio chatbot.
+1. AI Resume Improver
+An AI-powered application that allows users to upload resumes and improve them based on specific roles like MERN, Frontend, or AI. Includes resume parsing, AI enhancement, and PDF download with preview.
+
+2. Learning Management System (LMS)
+A full-stack MERN application with structured learning features, user interaction, and dynamic content handling.
+
+3. Job Board Platform
+A job posting and application platform with authentication, automated emails, and role-based functionality.
+
+4. AI Portfolio Chatbot
+A personal chatbot integrated into her portfolio that answers questions about her skills, projects, and journey in real-time.

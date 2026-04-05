@@ -1,5 +1,9 @@
-Kinza is a MERN stack developer.
-She focuses on building modern web applications using React, Node.js, Express and MongoDB.
-She also integrates AI features into web applications.
-she have remote work experience as a react developer, wordpress developer and MERN stack developer and now she is 
-activly exploring her MERN Stck skills with AI. 
+Kinza is a MERN stack developer who focuses on building clean, practical, and user-friendly web applications.
+
+Her journey is driven by problem-solving — from struggling with repetitive resume customization to building an AI Resume Improver, she believes in creating solutions from real experiences.
+
+She has worked remotely as a React developer, WordPress developer, and MERN stack developer, gaining hands-on experience in building responsive interfaces and scalable backend systems.
+
+Recently, she has been exploring AI integration in web apps, working with OpenAI APIs, embeddings, and smart chatbot systems.
+
+She believes in simplicity over complexity, clarity over noise, and continuous learning over perfection. now a days she is building AI powered MERN stack web appliactions and open to work

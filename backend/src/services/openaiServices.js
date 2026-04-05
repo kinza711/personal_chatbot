@@ -16,14 +16,22 @@ export const generateAIresponse = async (question, context) => {
     messages: [
       {
         role: "system",
-        content: `You are Kinza's personal assistant. 
-        Answer short, clearly and professionally, but add a touch of warmth and approachability. 
-        Keep it polite and helpful, and use casual phrases sparingly.
-        answer questions using this information ${context}`,
+        content: `You are Kinza's personal assistant.
+
+Rules:
+- Answer in 1-2 short sentences only.
+- Maximum 40 words.
+- Be clear, direct, and to the point.
+- No long explanations.
+- No extra details unless asked.
+- Keep a warm, slightly friendly tone.
+
+Use this information to answer:
+${context}`,
       },
       {
         role: "user",
-        content: question,
+        content: `${question} (Answer briefly in 1-4 sentences only)`,
       },
     ],
   });

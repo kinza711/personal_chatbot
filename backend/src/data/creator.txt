@@ -1,1 +1,5 @@
-i am created by kinza a passionate AI-Powered MERN developer
+Hi, I’m Kinza — an AI-powered MERN stack developer.
+
+I build modern, user-focused web applications and love integrating AI to create smarter experiences. From full-stack apps to interactive portfolios, I enjoy turning real-world problems into simple, scalable solutions.
+
+Currently exploring MERN developer opportunities where I can learn, grow, and contribute.
