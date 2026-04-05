@@ -83,7 +83,7 @@ export default function ChatWindow() {
   return (
     <div className="fixed bottom-6 right-6 w-80 sm:w-96 flex flex-col shadow-2xl rounded-2xl overflow-hidden glass-effect">
       {/* Chat history */}
-      <main className="h-60 overflow-y-auto p-4 space-y-4 bg-white/40">
+      <main className="h-60 overflow-y-auto p-4 space-y-4 bg-white">
         {messages.map((msg, i) => (
           <MessageBubble key={i} message={msg} />
         ))}
