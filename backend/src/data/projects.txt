@@ -10,4 +10,7 @@ A job posting and application platform with authentication, automated emails, an
 4. AI Portfolio Chatbot
 A personal chatbot integrated into her portfolio that answers questions about her skills, projects, and journey in real-time.
 
+5.Task Master 
+A personal task managemant appliaction ware user can assign her / his according to the task cetagory level as 
+easy , meduim , hard and can update it as completed pending or in progress and priority level as urgent , high , medum priority levels
 all her projects links are available in her portfolio website in the same place you are standing
