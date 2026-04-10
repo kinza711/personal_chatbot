@@ -17,5 +17,9 @@ export const chatWithAI = async (req, res) => {
     });
   } catch (err) {
     console.log(err, "chat not generated");
+    res.status(500).json({
+      message: "server error",
+      error: err.message,
+    });
   }
 };
