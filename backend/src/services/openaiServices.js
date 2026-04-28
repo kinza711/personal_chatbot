@@ -1,13 +1,14 @@
 import OpenAI from "openai";
 import dotenv from "dotenv";
+import { openai } from "../Config.js/openai.js";
 
 dotenv.config();
 
 // carete openai client object , to connect backend to openai server
 
-const openai = new OpenAI({
-  apiKey: process.env.API_KEY,
-});
+// const openai = new OpenAI({
+//   apiKey: process.env.API_KEY,
+// });
 
 // create service to genareate ai response
 export const generateAIresponse = async (question, context) => {
