@@ -1,6 +1,6 @@
 import OpenAI from "openai";
 import dotenv from "dotenv";
-import { openai } from "../Config.js/openai.js";
+import { openai } from "../config/openai.js"; // lowercase 'config'
 
 dotenv.config();
 
