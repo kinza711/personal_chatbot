@@ -1,8 +1,8 @@
 import dotenv from "dotenv";
 import { Pinecone } from "@pinecone-database/pinecone";
 
-// dotenv.config();
-dotenv.config({ path: "../../.env" });
+dotenv.config();
+//dotenv.config({ path: "../../.env" });
 
 console.log("PINECONE KEY:", process.env.PINECONE_API_KEY);
 

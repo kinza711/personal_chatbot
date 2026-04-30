@@ -4,12 +4,6 @@ import { openai } from "../config/openai.js";
 
 dotenv.config();
 
-// carete openai client object , to connect backend to openai server
-
-// const openai = new OpenAI({
-//   apiKey: process.env.API_KEY,
-// });
-
 // create service to genareate ai response
 export const generateAIresponse = async (question, context) => {
   const response = await openai.chat.completions.create({
@@ -32,7 +26,7 @@ ${context}`,
       },
       {
         role: "user",
-        content: `${question} (Answer briefly in 1-4 sentences only)`,
+        content: `${question} (Answer briefly in 1-2 sentences only)`,
       },
     ],
   });

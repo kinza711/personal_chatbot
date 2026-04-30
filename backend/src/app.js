@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import chatRoutes from "./Routes/chatRoutes.js";
+import adminRoutes from "./Routes/adminRoutes.js";
 
 const app = express();
 
@@ -21,6 +22,7 @@ app.use(
 app.use(express.json());
 
 app.use("/", chatRoutes);
+app.use("/admin", adminRoutes);
 
 // default route
 app.get("/", (req, res) => {

@@ -3,7 +3,7 @@ import OpenAI from "openai";
 import { index } from "../config/pinconeapi.js";
 import { openai } from "../config/openai.js";
 //import { generateEmbedding } from "../services/embeddingServices.js";
-
+//--------------***********for test pincone understanding only *******-----------------
 async function run() {
   const texts = [
     "im robort ",
@@ -22,8 +22,8 @@ async function run() {
 
   // Step 2: Pinecone mein store karo
   const vectors = texts.map((t, i) => ({
-    //id: `vec_${i}`,
-    id: `vec_${Date.now()}_${i}`,
+    id: `vec_${i}`, // data will override for same id
+    //id: `vec_${Date.now()}_${i}`, // for store data each time
     values: res.data[i].embedding,
     metadata: { text: t },
   }));

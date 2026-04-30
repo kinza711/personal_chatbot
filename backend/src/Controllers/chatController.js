@@ -7,7 +7,9 @@ import { searchContext } from "../utils/searchContext.js";
 export const chatWithAI = async (req, res) => {
   try {
     const { question } = req.body; // get user question
+    //const start = Date.now();
     const questionEmbedding = await generateEmbedding(question); // carete vector or embeddig
+    //console.log("⏱ embedding time:", Date.now() - start, "ms");
     const context = await searchContext(questionEmbedding); //find  context from data
     const aiResponse = await generateAIresponse(question, context); // genearte res
 
