@@ -58,27 +58,45 @@ JavaScript (ES Modules)
 
 **⚙️ How It Works (RAG Flow)**
 User Question
+
 ↓
+
 Generate Embedding (OpenAI)
+
 ↓
+
 Search Similar Vectors (Pinecone)
+
 ↓
+
 Retrieve Relevant Context
+
 ↓
+
 Send Context + Question to GPT
+
 ↓
+
 AI Response
+
 
 **⚡ Performance Notes**
 Embeddings are generated using OpenAI API
+
 Pinecone handles fast semantic search
+
 Response time: ~2–4 seconds (normal RAG behavior)
+
 
 **🧠 Key Concepts Used**
 Embeddings (vector representation of text)
+
 Semantic Search
+
 Vector Database (Pinecone)
+
 RAG Architecture
+
 
 **🤍 Author**
 
