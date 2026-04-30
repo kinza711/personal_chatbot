@@ -19,54 +19,42 @@ Pinecone Vector Database
 JavaScript (ES Modules)
 
 **📁 Project Structure**
+
 **src/**
 │
+
 ├── config/
-
 │ ├── openai.js
-
 │ └── pinconeapi.js
-
 │
+
 ├── controllers/
-
 │ ├── chatController.js
-
 │ └── adminController.js
-
 │
+
 ├── services/
-
 │ ├── embeddingServices.js
-
 │ ├── openaiServices.js
-
 │ └── pineconeService.js
-
 │
+
 ├── utils/
-
 │ └── searchContext.js
-
 │
+
 ├── routes/
-
 │ ├── adminRoutes.js
-
 │ └── chatRoutes.js
-
 │
+
 ├── data/
-
 │ ├── about.txt
-
 │ └── skills.txt
-
 │
+
 └── scripts/ (optional used for testing purpose only)
-
 └── uploadData.js
-
 
 **⚙️ How It Works (RAG Flow)**
 User Question
